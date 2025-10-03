@@ -8,7 +8,7 @@ A aplicação renderiza a tabela completa e permite que o usuário explore os el
 
 **[⬆️ Acessar a Demonstração Online](periodic-table-for-neto-novais.netlify.app)**
 
-**![Screenshot da Tabela Periódica] https://imgur.com/a/ce4zdc0**
+**[Screenshot da Tabela Periódica] https://imgur.com/a/ce4zdc0**
 
 ## 🎯 Principais Funcionalidades
 
