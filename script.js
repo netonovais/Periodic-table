@@ -1,3 +1,4 @@
+// Dados dos Elementos Químicos
 const dadosElementos = {
     "H": { nome: "Hidrogênio", numero: 1, massa: 1.008, grupo: "Não metal", periodo: 1 },
     "He": { nome: "Hélio", numero: 2, massa: 4.0026, grupo: "Gás nobre", periodo: 1 },
@@ -118,3 +119,60 @@ const dadosElementos = {
     "Ts": { nome: "Tenessino", numero: 117, massa: 294, grupo: "Halogênio", periodo: 7 },
     "Og": { nome: "Oganessônio", numero: 118, massa: 294, grupo: "Gás nobre", periodo: 7 }
 }
+
+// Mapa de Posição dos Elementos (coluna, linha)
+const posicoesElementos = {
+    H: { col: 1, row: 1 },    He: { col: 18, row: 1 },
+    Li: { col: 1, row: 2 },   Be: { col: 2, row: 2 },   B: { col: 13, row: 2 },   C: { col: 14, row: 2 },   N: { col: 15, row: 2 },   O: { col: 16, row: 2 },   F: { col: 17, row: 2 },   Ne: { col: 18, row: 2 },
+    Na: { col: 1, row: 3 },   Mg: { col: 2, row: 3 },  Al: { col: 13, row: 3 },  Si: { col: 14, row: 3 },   P: { col: 15, row: 3 },   S: { col: 16, row: 3 },  Cl: { col: 17, row: 3 },   Ar: { col: 18, row: 3 },
+    K: { col: 1, row: 4 },    Ca: { col: 2, row: 4 },   Sc: { col: 3, row: 4 },   Ti: { col: 4, row: 4 },   V: { col: 5, row: 4 },    Cr: { col: 6, row: 4 },   Mn: { col: 7, row: 4 },   Fe: { col: 8, row: 4 },   Co: { col: 9, row: 4 },   Ni: { col: 10, row: 4 },  Cu: { col: 11, row: 4 },  Zn: { col: 12, row: 4 },  Ga: { col: 13, row: 4 },  Ge: { col: 14, row: 4 },  As: { col: 15, row: 4 },  Se: { col: 16, row: 4 },  Br: { col: 17, row: 4 },  Kr: { col: 18, row: 4 },
+    Rb: { col: 1, row: 5 },   Sr: { col: 2, row: 5 },   Y: { col: 3, row: 5 },    Zr: { col: 4, row: 5 },   Nb: { col: 5, row: 5 },   Mo: { col: 6, row: 5 },   Tc: { col: 7, row: 5 },   Ru: { col: 8, row: 5 },   Rh: { col: 9, row: 5 },   Pd: { col: 10, row: 5 },  Ag: { col: 11, row: 5 },  Cd: { col: 12, row: 5 },  In: { col: 13, row: 5 },  Sn: { col: 14, row: 5 },  Sb: { col: 15, row: 5 },  Te: { col: 16, row: 5 },  I: { col: 17, row: 5 },   Xe: { col: 18, row: 5 },
+    Cs: { col: 1, row: 6 },   Ba: { col: 2, row: 6 },   'La-ref': { col: 3, row: 6 }, Hf: { col: 4, row: 6 },   Ta: { col: 5, row: 6 },  W: { col: 6, row: 6 },    Re: { col: 7, row: 6 },   Os: { col: 8, row: 6 },   Ir: { col: 9, row: 6 },   Pt: { col: 10, row: 6 },  Au: { col: 11, row: 6 },  Hg: { col: 12, row: 6 },  Tl: { col: 13, row: 6 },  Pb: { col: 14, row: 6 },  Bi: { col: 15, row: 6 },  Po: { col: 16, row: 6 },  At: { col: 17, row: 6 },  Rn: { col: 18, row: 6 },
+    Fr: { col: 1, row: 7 },   Ra: { col: 2, row: 7 },   'Ac-ref': { col: 3, row: 7 }, Rf: { col: 4, row: 7 },   Db: { col: 5, row: 7 },  Sg: { col: 6, row: 7 },   Bh: { col: 7, row: 7 },   Hs: { col: 8, row: 7 },   Mt: { col: 9, row: 7 },   Ds: { col: 10, row: 7 },  Rg: { col: 11, row: 7 },  Cn: { col: 12, row: 7 },  Nh: { col: 13, row: 7 },  Fl: { col: 14, row: 7 },  Mc: { col: 15, row: 7 },  Lv: { col: 16, row: 7 },  Ts: { col: 17, row: 7 },  Og: { col: 18, row: 7 },
+    La: { col: 4, row: 9 },   Ce: { col: 5, row: 9 },   Pr: { col: 6, row: 9 },   Nd: { col: 7, row: 9 },   Pm: { col: 8, row: 9 },   Sm: { col: 9, row: 9 },   Eu: { col: 10, row: 9 },  Gd: { col: 11, row: 9 },  Tb: { col: 12, row: 9 },  Dy: { col: 13, row: 9 },  Ho: { col: 14, row: 9 },  Er: { col: 15, row: 9 },  Tm: { col: 16, row: 9 },  Yb: { col: 17, row: 9 },  Lu: { col: 18, row: 9 },
+    Ac: { col: 4, row: 10 },  Th: { col: 5, row: 10 },  Pa: { col: 6, row: 10 },  U: { col: 7, row: 10 },   Np: { col: 8, row: 10 },  Pu: { col: 9, row: 10 },  Am: { col: 10, row: 10 }, Cm: { col: 11, row: 10 }, Bk: { col: 12, row: 10 }, Cf: { col: 13, row: 10 }, Es: { col: 14, row: 10 }, Fm: { col: 15, row: 10 }, Md: { col: 16, row: 10 }, No: { col: 17, row: 10 }, Lr: { col: 18, row: 10 }
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    const elementosHTML = document.querySelectorAll('.elemento');
+    elementosHTML.forEach(elemento => {
+        const simbolo = elemento.dataset.simbolo;
+        const posicao = posicoesElementos[simbolo];
+        if (posicao) {
+            elemento.style.gridColumn = posicao.col;
+            elemento.style.gridRow = posicao.row;
+        }
+    });
+});
+
+const elementos = document.querySelectorAll('.elemento');
+const infoBox = document.getElementById('info-box');
+
+elementos.forEach(elemento => {
+    elemento.addEventListener('mouseenter', (event) => {
+        const simbolo = event.target.dataset.simbolo;
+        if (!simbolo) return;
+
+        const info = dadosElementos[simbolo];
+
+        if (info) {
+            infoBox.innerHTML = `
+                <h3>${info.nome} (${simbolo})</h3>
+                <p><strong>N° Atômico:</strong> ${info.numero}
+                <p><strong>Massa Atômica:</strong> ${info.massa}
+                <p><strong>Família:</strong> ${info.grupo}
+                <p><strong>Período:</strong> ${info.periodo}
+            `;
+            infoBox.style.display = 'block';
+        }
+    });
+
+    elemento.addEventListener('mousemove', (event) => {
+        infoBox.style.left = (event.pageX + 15) + 'px';
+        infoBox.style.top = (event.pageY + 15) + 'px';
+    });
+    elemento.addEventListener('mouseleave', () => {
+        infoBox.style.display = 'none';
+        infoBox.innerHTML = '';
+    });
+});
