@@ -7,7 +7,8 @@ Desenvolvimento de uma interface web interativa e visualmente atraente da Tabela
 A aplicação renderiza a tabela completa e permite que o usuário explore os elementos, visualizando informações detalhadas através de uma "info-box" dinâmica que aparece ao passar o mouse, inspirada em interfaces de inventário de jogos.
 
 **[⬆️ Acessar a Demonstração Online](periodic-table-for-neto-novais.netlify.app)**
-**![Screenshot da Tabela Periódica](https://imgur.com/a/ce4zdc0)**
+
+**![Screenshot da Tabela Periódica] https://imgur.com/a/ce4zdc0**
 
 ## 🎯 Principais Funcionalidades
 
